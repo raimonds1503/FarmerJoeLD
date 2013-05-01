@@ -67,6 +67,15 @@
   <!-- Assets to embed into the output SWF -->
   <library>
     <asset path="src\assets\GameBGDay.png" />
+    <asset path="src\assets\sheep.png" />
+    <asset path="src\assets\GameBGNight.png" />
+    <asset path="src\assets\MarketBG.png" />
+    <asset path="src\assets\cow.png" />
+    <asset path="src\assets\wolf.png" />
+    <asset path="src\assets\potatoe.png" />
+    <asset path="src\assets\menu.png" />
+    <asset path="src\assets\sheep.mp3" />
+    <asset path="src\assets\cow.mp3" />
   </library>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>

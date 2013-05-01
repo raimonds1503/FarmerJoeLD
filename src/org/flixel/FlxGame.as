@@ -262,8 +262,8 @@ package org.flixel
 					var code:String = String.fromCharCode(FlashEvent.charCode);
 					switch(c)
 					{
-						case 48:
-						case 96:
+						case 8: //CHANGED FROM 48
+						case 8: //TODO: CHANGED FROM 96
 							FlxG.mute = !FlxG.mute;
 							if(FlxG.volumeHandler != null)
 								FlxG.volumeHandler(FlxG.mute?0:FlxG.volume);

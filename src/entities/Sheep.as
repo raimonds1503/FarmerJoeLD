@@ -7,9 +7,9 @@ package entities
 	public class Sheep extends Animal 
 	{
 		
-		public function Sheep() 
+		public function Sheep(x:Number, y:Number) 
 		{
-			
+			super(Assets.Sheep, x, y);
 		}
 		
 	}

@@ -3,6 +3,7 @@ package
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import org.flixel.FlxGame;
+	import states.GameState;
 	import states.MenuState;
 	
 	/**
@@ -14,7 +15,7 @@ package
 		
 		public function Main():void 
 		{
-			super(800, 600, MenuState, 1);
+			super(800, 600, MenuState, 1, 60, 30, true);
 		}
 		
 	}
